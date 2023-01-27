@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Об авторе проекта{% endblock %}
+{% block content %}
+{% load static %}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Кузнецов Юрий</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <p>Я начинающий, но очень талантливый программист. Отношусь к работе серьёзно и вдумчиво.
+         Моя жена подтвердит. А ещё я красивый и остроумный.
+      </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <img src="{% static 'img/Face.jpg' %}" width="150" height="150">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2>Мои работы</h2>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <p><a href="https://github.com/KuznetsovYury">Сайт для размещения блогов</a></p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2>Контакты для связи</h2>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p>Телефон: +7 (915) 339-33-55</p>
+      <p>Почта: <a href="mailto: yury_kuznetsov@mail.ru">yury_kuznetsov@mail.ru</a></p>
+      <p>Скайп: y.a.kuznetsov</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
